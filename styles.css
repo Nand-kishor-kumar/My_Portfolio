@@ -1,0 +1,130 @@
+.projects-section {
+  background: #1c1f38;
+}
+
+.project-card {
+  background: #121629;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #eee;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 255, 213, 0.6);
+}
+
+.project-card .card-body {
+  padding: 1.25rem 1.5rem;
+}
+
+.project-card .card-title {
+  color: #00ffd5;
+  font-weight: 700;
+}
+
+.project-card .card-text {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* Animation for the section title */
+#projects-title {
+  animation: fadeSlideUp 1s forwards;
+}
+
+/* Optional fade animation when cards come into view */
+.project-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation-fill-mode: forwards;
+}
+
+.project-card:nth-child(1) {
+  animation: fadeSlideUp 0.5s ease forwards 0.3s;
+}
+.project-card:nth-child(2) {
+  animation: fadeSlideUp 0.5s ease forwards 0.6s;
+}
+.project-card:nth-child(3) {
+  animation: fadeSlideUp 0.5s ease forwards 0.9s;
+}
+.contact-section {
+  background: #121629;
+  color: #eee;
+}
+
+.contact-info h4 {
+  color: #00ffd5;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.contact-info a {
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: #00bfa6;
+}
+
+.contact-form {
+  background: #1c1f38;
+  border-radius: 15px;
+  color: #eee;
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+  box-shadow: 0 10px 30px rgba(0, 255, 213, 0.5);
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #00ffd5;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #2a2d4e;
+  border: none;
+  border-radius: 8px;
+  color: #eee;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: #b8bad3;
+  outline: none;
+  box-shadow: 0 0 8px #00ffd5;
+  color: #fff;
+}
+
+.btn-custom {
+  background-color: #00ffd5;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 25px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #00bfa6;
+  transform: scale(1.05);
+  color: #fff;
+}
+
+/* Animation for section title */
+#contact-title {
+  animation: fadeSlideUp 1s forwards;
+}
+
